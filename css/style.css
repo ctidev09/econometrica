@@ -69,7 +69,7 @@ h2, .h2 {
 
 @media (max-width: 991px) {
   h2, .h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
   h1, .h1 {
     font-size: 45px;
@@ -95,7 +95,7 @@ h6, .h6 {
 }
 @media (max-width: 620px) {
   h1, .h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -260,7 +260,7 @@ a:hover {
 }
 
 .section-title {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   font-family: "Roboto";
 }
 
@@ -483,10 +483,7 @@ header.major:after {
   width: 75%;
    }
 
-  .fas {
-    height: 10px;
-    weight: 150px;
-  }
+
 
 /* /card */
 .navigation {
@@ -559,9 +556,7 @@ header.major:after {
   padding: 0 0 3em 5.5em;
   width: 300px;
    }
-   .navigation {
-    weight:50%;
-  }
+
   .navbar-brand {
     width: 50%;
   }
