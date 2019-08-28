@@ -399,6 +399,7 @@ a:hover {
 .text-light {
   color: #999999 !important;
   font-family: "Roboto", sans-serif !important;
+  padding: 0 0 1em 0;
 }
 
 .mb-10 {
