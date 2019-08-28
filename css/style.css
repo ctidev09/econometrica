@@ -25,6 +25,30 @@ body {
     padding: 0 0.2em 0 0;
    
   }
+  .flaglang{ 
+    padding: 0 0.5em 0 0;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+ 
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #222222;
+    position: static;
+    float: none;
+  }
+  .btn-link:hover {
+ color: #0057b300;
+}
+    .dropdown-item {
+      display: block;
+      padding: 1em 4em;
+      clear: both;
+      color: #212529;
+      text-align: inherit;
+      background-color: transparent;
+      border: 0;
+      align-self: center;
+  }
 
 
 p, .paragraph {
@@ -55,6 +79,8 @@ h1, .h1 {
   background-size: cover;
   background-repeat: no-repeat;
  }
+
+ 
  @media (max-width: 2400px) {
 
    
@@ -168,13 +194,28 @@ h6, .h6 {
     height: 100%;
     max-width: 100%;
     display: contents;
+  }
    
-    
+    .dropdown-item {
+      display: block;
+      padding: 1em 4em;
+      clear: both;
+      color: #212529;
+      text-align: center;
+      background-color: transparent;
+      border: 0;
+      align-self: center;
+  }
+  .dropdown-toggle{
+    align-self: center;
+    text-align: center;
+
+  }
     
     
   }
   
-}
+
 
 /* Button style */
 .btn {
@@ -399,7 +440,7 @@ a:hover {
 .text-light {
   color: #999999 !important;
   font-family: "Roboto", sans-serif !important;
-  padding: 0 0 1em 0;
+  padding: 0 0 1em 
 }
 
 .mb-10 {
