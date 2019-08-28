@@ -658,7 +658,7 @@ header.major:after {
   .hero-area {
         padding: 13em 0 1em 0;
     overflow: hidden;
-    text-align: justify;
+    text-align: left;
   }
   h1, .h1 {
   font-size: 2em;
