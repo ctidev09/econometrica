@@ -49,12 +49,7 @@ body {
       border: 0;
       align-self: center;
   }
-  .enligne-fa,
-  .carousel-control-prev,
-  .carousel-control-next {
-    font-size: 80px;
-    color: #f3ab2a !important;
-  }
+ 
 
 
 p, .paragraph {
@@ -88,7 +83,9 @@ h1, .h1 {
 
  
  @media (max-width: 2400px) {
-
+  .btn-link{
+    padding: 15px 0 0 1px;
+  }
    
    .sede-slider2{
     width: 0%;
@@ -638,7 +635,7 @@ header.major:after {
   font-family: "Roboto";
   text-transform: uppercase;
   padding: 15px;
-  font-size:1.3em;
+  font-size:1em;
 }
 
 .navbar .nav-item.active {
