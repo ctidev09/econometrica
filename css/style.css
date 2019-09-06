@@ -329,7 +329,7 @@ img {
 .logo {
   align-items: center;
   position: center;
-  padding: 12em 0 3em 19em;
+  padding: 12em 0 3em 23em;
 }
 a,
 a:hover,
@@ -659,18 +659,21 @@ header.major:after {
   .logo {
   padding: 0 0 3em 5.6em;
   width: 80%;
+  display: inline;
    }
 }
 @media (max-width: 480px) {
   .hero-area {
-        padding: 13em 0 1em 0;
+        padding: 9em 0 1em 0;
     overflow: hidden;
   }
   h1, .h1 {
-  font-size: 2em;
+    margin: 1.5em 0 0.3em 0;
+  font-size: 1.5em;
   text-align: center;
    }
    .logo {
+     display: none;
   padding: 0 0 3em 5.5em;
   width: 300px;
    }
