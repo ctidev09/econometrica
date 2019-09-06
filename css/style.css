@@ -614,13 +614,20 @@ header.major:after {
   background-color: #2D2D2D;
   padding: 15px 100px;
 }
+@media (max-width:1150px){
+  .hero-area {
+    padding: 200px 0 200px;
+    position: relative;
+  }
 
-@media (max-width: 991px) {
+}
+
+  @media (max-width: 991px) {
   .navigation.nav-bg {
     padding: 15px 20px;
   }
   .navbar-brand {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -629,6 +636,11 @@ header.major:after {
     padding: 20px;
     background: #2D2D2D;
   }
+  .logo {
+    padding: 0 0 3em 16em;
+    width: 70%;
+    display: inline;
+     }
 }
 
 .navbar .nav-item .nav-link {
@@ -647,7 +659,7 @@ header.major:after {
 }
 
 .hero-area {
-  padding: 300px 0 200px;
+  padding: 180px 0 200px;
   position: relative;
 }
 
