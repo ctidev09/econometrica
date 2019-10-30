@@ -25,14 +25,17 @@ body {
     padding: 0 0.2em 0 0;
    
   }
+  
   .flaglang{ 
-    padding: 0 1em 0 0;
+    margin: 8px 8px;
+    align-items: center;
+    width: 30px;
+    height: 30px;
   }
   .dropdown-item:focus, .dropdown-item:hover {
- 
-    color: #ffffff;
+    
     text-decoration: none;
-    background-color: #222222;
+    background-color: #d6cfcf;
     position: static;
     float: none;
   }
@@ -255,7 +258,7 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #2D2D2D;
+  background: #161616;
   color: #fff;
   margin: 0 0 1em 0;
 }
@@ -292,12 +295,12 @@ h6, .h6 {
 
 .btn-transparent {
   background: transparent;
-  color: #2D2D2D;
+  color: #161616;
   font-weight: bold;
 }
 
 .btn-transparent:active, .btn-transparent:hover {
-  color: #2D2D2D;
+  color: #161616;
 }
 
 body {
@@ -352,11 +355,11 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: #2D2D2D !important;
+  color: #161616 !important;
 }
 
 a:hover {
-  color: #2D2D2D;
+  color: #161616;
 }
 
 .slick-slide {
@@ -404,7 +407,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #2D2D2D !important;
+  background: #161616 !important;
 }
 
 .bg-gray {
@@ -413,7 +416,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #2D2D2D !important;
+  color: #161616 !important;
 }
 .text-secundary{
   color: #e72a2e;
@@ -564,7 +567,7 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: #2D2D2D;
+  border-color: #161616;
   outline: 0;
   box-shadow: none !important;
 }
@@ -612,7 +615,7 @@ header.major:after {
 }
 
 .navigation.nav-bg {
-  background-color: #2D2D2D;
+  background-color: #161616;
   padding: 15px 100px;
 }
 @media (max-width:1150px){
@@ -635,7 +638,10 @@ header.major:after {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #2D2D2D;
+    background: #161616;
+  }
+  .nav{
+    align-items: initial;
   }
   .logo {
     padding: 0 0 3em 16em;
@@ -802,7 +808,7 @@ header.major:after {
 }
 
 .hover-bg-primary:hover {
-  background: #2D2D2D;
+  background: #161616;
 }
 
 .hover-bg-primary:hover * {
@@ -811,7 +817,7 @@ header.major:after {
 
 .active-bg-primary {
   transition: .3s ease;
-  background: #2D2D2D;
+  background: #161616;
 }
 
 .active-bg-primary * {
@@ -911,7 +917,7 @@ blockquote {
   display: inline-block;
   padding: 10px 20px;
   background: #eaeaea;
-  border-left: 2px solid #2D2D2D;
+  border-left: 2px solid #161616;
   font-style: italic;
   font-size: 22px;
 }

@@ -16,47 +16,48 @@
 <body>
   
   <body class="bg-transparent">
-    <header class="navigation fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo-1.png" alt="Myself"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse text-center" id="navigation">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="our-divisions.html">Divisiones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="our.cities.html">Ubicaciones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="of-generald.html">De la dirección general</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contacto</a>
-            </li>
-            <li class="nav-item btn-link">
-            <div class="dropdown ">
-                <button class="dropdown-toggle nav-link btn-link btn-block bg-transparent text-lowercase text-center" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 <img src="images/es.png" class="flaglang"> es</button>
+      <header class="navigation fixed-top">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo-1.png" alt="Myself"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navigation">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="our-divisions.html" data-lang="menu1">Divisions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="our.cities.html" data-lang="menu2">Locations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="of-generald.html" data-lang="menu3">From our CEO</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="contact.html" data-lang="menu4">Contact</a>
+                </li>
                 
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button"><img src="images/en.png" class="flaglang">en</button>
-                    <button class="dropdown-item" type="button"><img src="images/zh.png" class="flaglang">中文</button>
-                    <button class="dropdown-item" type="button"><img src="images/es.png" class="flaglang">es</button>
-                    <button class="dropdown-item" type="button"><img src="images/de.png" class="flaglang">de</button>
-                    <button class="dropdown-item" type="button"><img src="images/ja.png" class="flaglang">日本</button>
-                    <button class="dropdown-item" type="button"><img src="images/cs.png" class="flaglang">čs</button>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+                  
+                <li class="nav text-primary" style="border: transparent; background-color: #161616;">
+                   <div class="nav-item"data-lang="menu5" style=" border: transparent; background-color: #161616;">
+                  <img class=flaglang src=images/en.png >
+                  </div> 
+                  <select name="lang" id="lang_select" class="text-white" style="border-color: transparent; background-color: #161616;">
+                    <option value="en" class=flaglang>en </option>
+                    <option value="zh" class=flaglang>中文</option> 
+                    <option value="ru" class=flaglang>ru</option>
+                    <option value="es" class=flaglang>es</option>
+                    <option value="de" class=flaglang>de</option>
+                    <option value="ja" class=flaglang>日本</option>
+                  </select>
+                  </div>
+                </li></div>
+                
+              </ul>
+            </div>
+          </nav>
+        </header>
 
 <!-- page title -->
 <section class="page-title bg-white position-relative">
@@ -72,9 +73,9 @@
       <div class="row">
         <div class="col-lg-12"> 
             <header class="major text-center">
-            <h1 class="text-primary font-tertiary ">Términos y condiciones</h1>
+            <h1 class="text-primary font-tertiary" data-lang="term1">Términos y condiciones</h1>
             </header> <br> <br> <br>
-            <p class="font-secondary paragraph-lg text-primary text-justify">
+            <p class="font-secondary paragraph-lg text-primary text-justify" data-lang="term2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -105,31 +106,31 @@
       <div class="section">          
         <div class="container">  
                     
-          <p class="text-light text-center paragraph-lg">Consulte su oficina local de <img class="imtxt img-fluid" src="images/logotx.png"> para conocer a fondo los detalles 
-            de cada una de nuestras divisiones y cómo le serán de utilidad.</p>
+          <p class="text-light text-center paragraph-lg" data-lang="footer1">Consult your local <img class="imtxt img-fluid" src="images/logotxi.png"> <br>  office for details of each of our divisions and how they will be useful. </p>
           <div class="row">
             <div class="col-md-3">
               <h5 class="text-light text-center">
-                <a class="text-light" href="received-dist.html">Nuestras distinciones</a>
+                <a class="text-light" href="received-dist.html" data-lang="footer2">Distinctions received</a>
               </h5>
             </div><div class="col-md-3">
                 <h5 class="text-light text-center">
-                  <a class="text-light" href="internship-program.html">Pasantías</a>
+                  <a class="text-light" href="internship-program.html" data-lang="footer3">Internship program</a>
                 </h5>
               </div>
               <div class="col-md-3">
                   <h5 class="text-light text-center">
-                    <a class="text-light" href="terms-agreement.html">Términos y condiciones</a>
+                    <a class="text-light" href="terms-agreement.html" data-lang="footer4">Terms and conditions</a>
                   </h5>
                 </div>
                 <div class="col-md-3">
                     <h5 class="text-light text-center">
                       <i class="x-icon contact"></i>
-                      <a class="text-light" href="contact.html">Contacto</a>
+                      <a class="text-light" href="contact.html" data-lang="footer5">Contact</a>
                     </h5>
                   </div>
-              </div>  
-              
+              </div>
+             <br>
+             <br>
           </div>
         </div>
       </div>
@@ -150,6 +151,9 @@
 
 <!-- Main Script -->
 <script src="js/script.js"></script>
+<script nomodule src="https://unpkg.com/browser-es-module-loader/dist/babel-browser-build.js"></script>
+<script nomodule src="https://unpkg.com/browser-es-module-loader"></script>
+<script id="translate" src="js/translate/translate.js"></script>
 
 </body>
 </html>

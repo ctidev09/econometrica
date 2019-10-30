@@ -25,47 +25,67 @@
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="our-divisions.html">Divisiones</a>
+          <a class="nav-link" href="our-divisions.html" data-lang="menu1">Divisions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="our.cities.html">Ubicaciones</a>
+          <a class="nav-link" href="our.cities.html" data-lang="menu2">Locations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="of-generald.html">De la dirección general</a>
+          <a class="nav-link" href="of-generald.html" data-lang="menu3">From our CEO</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contacto</a>
+          <a class="nav-link" href="contact.html" data-lang="menu4">Contact</a>
         </li>
-        <li class="nav-item">
-        <div class="dropdown">
-            <button class="dropdown-toggle nav-link btn-link btn-block bg-transparent text-lowercase text-center" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             <img src="images/es.png" class="flaglang"> es</button>
-            
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <button class="dropdown-item" type="button"><img src="images/en.png" class="flaglang">en</button>
-              <button class="dropdown-item" type="button"><img src="images/zh.png" class="flaglang">中文</button>
-              <button class="dropdown-item" type="button"><img src="images/es.png" class="flaglang">es</button>
-              <button class="dropdown-item" type="button"><img src="images/de.png" class="flaglang">de</button>
-              <button class="dropdown-item" type="button"><img src="images/ja.png" class="flaglang">日本</button>
-              <button class="dropdown-item" type="button"><img src="images/cs.png" class="flaglang">čs</button>
-            </div>
+        
+          
+        <li class="nav text-primary" style="border: transparent; background-color: #161616;">
+           <div class="nav-item"data-lang="menu5" style=" border: transparent; background-color: #161616;">
+          <img class=flaglang src=images/en.png >
+          </div> 
+          <select name="lang" id="lang_select" class="text-white" style="border-color: transparent; background-color: #161616;">
+            <option value="en" class=flaglang>en </option>
+            <option value="zh" class=flaglang>中文</option> 
+            <option value="ru" class=flaglang>ru</option>
+            <option value="es" class=flaglang>es</option>
+            <option value="de" class=flaglang>de</option>
+            <option value="ja" class=flaglang>日本</option>
+          </select>
           </div>
-        </li>
+        </li></div>
+        
       </ul>
     </div>
   </nav>
 </header>
-
+<!--<li class="nav-item">
+        <select name="lang" id="lang_select"
+        <div class="dropdown">
+            <button class="dropdown-toggle nav-link btn-link btn-block bg-transparent text-lowercase text-center" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <img src="images/es.png" class="flaglang"> es</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button"><option value="es">Español</option><img src="images/en.png" class="flaglang" height="26">en</button>
+              <button class="dropdown-item" type="button"><img src="images/zh.png" class="flaglang">中文</button>
+              <button class="dropdown-item" type="button"><img src="images/ru.png" class="flaglang" height="26">ru</button>
+              <button class="dropdown-item" type="button"><img src="images/es.png" class="flaglang">es</button>
+              <button class="dropdown-item" type="button"><img src="images/de.png" class="flaglang">de</button>
+              <button class="dropdown-item" type="button"><img src="images/ja.png" class="flaglang">日本</button>
+              <button class="dropdown-item" type="button"><img src="images/cs.png" class="flaglang">čs</button>
+            </select>
+            </div>
+          </div>
+        </li>-->
 <!-- hero area -->
-<section class="hero-area bg-primary" id="parallax">
+<section class="hero-area bg-primary" id="parallax" >
   <div class="layer-bg w-100">
     <img class="img-fluid w-100" src="images/slide.jpg" alt="bg-shape">
   </div>
   <div class="container">
     <div class="row">
-    <div class="col-lg-12 mx-auto">  
+    <div class="col-lg-12 mx-auto">
+      <!--  <h3 class="text-white font-tertiary text-center" data-lang="welcome">WELCOME </h3>  -->
    <img class="logo img-fluid img-top text-center" src="images/logo.png">
-  <h1 class="text-white font-tertiary">Desde 1975 nuestros expertos proveen las mejores soluciones </h1>
+   
+  <h1 class="text-white font-tertiary" data-lang="slide">Since 1975 our experts provide our customers with the best solutions. </h1>
       </div>
     </div>
   </div>
@@ -80,14 +100,12 @@
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
           <div class="col-lg-12 text-center">
-              <h2 class="section-title text-white mb-5">Quiénes somos</h2>
+              <h2 class="section-title text-white mb-5" data-lang="about">About Us</h2>
             </div>
-        <p class="font-secondary paragraph-lg text-white text-justify"><img class="imtxt img-fluid" src="images/logotx.png">
-          es una organización consultora internacional altamente dinámica, donde colaboran expertos del más alto perfil profesional,
-           técnico y académico; con nexos en diferentes partes del mundo. <br>
-          En ella laboran generadores de una mejor gerencia –gubernamental y privada– que se traduce en oportunidades para el desarrollo,
-           quienes se encuentran a su servicio. <br>        
-            </p>
+        <p class="font-secondary paragraph-lg text-white text-justify" data-lang="abouttext"><img class="imtxt img-fluid" src="images/logotxi.png">
+          is a highly dynamic international consulting organization, where experts from the highest professional, technical and academic background collaborate, with a worldwide perspective. <br>
+          In <img class="imtxt img-fluid" src="images/logotxi.png"> work creators of better management –governmental and private– that translates into opportunities for development, at your service! <br>        
+          Contact your local <img class="imtxt img-fluid" src="images/logotxi.png"> office to learn more about the details of each of our divisions and how they will be useful.</p>
          </div>
     </div>
   </div>
@@ -102,28 +120,28 @@
     <div class="container">
       <div class="row justify-content-around">
         <div class="col-lg-12 text-center">
-          <h2 class="section-title">Nuestras divisiones</h2>
+          <h2 class="section-title" data-lang="ourdivisions">Divisions</h2>
         </div>
         <div class="col-lg-3 col-md-4 text-center">
           <a class="text-white" href="our-divisions-private-sector.html"><img class="img-fluid img-top" src="images/sp.png"> 
           <br>
           <br>
-          <p class="mb-0"></p>
-         <h4>Sector Privado</h4></a>
+
+         <h4 data-lang="private">Private Sector</h4></a>
           </div>
           <div class="col-lg-3 col-md-4 text-center">
             <a class="text-white" href="our-divisions-goverment-sector.html"> <img class="img-fluid img-top" src="images/pu.png"> 
             <br>
             <br>
-              <p class="mb-0"></p>
-              <h4>Sector Público</h4></a>
+    
+              <h4 data-lang="public">Public Sector</h4></a>
               </div>
               <div class="col-lg-3 col-md-4 text-center">
                 <a class="text-white" href="our-divisions-ti-sector.html">  <img class="img-fluid img-top" src="images/or.png"> 
                 <br>
                 <br>
-                  <p class="mb-0"></p>
-                  <h4>Sector Tecnologías de la Información</h4> </a>
+        
+                  <h4 data-lang="ti">Information Technology Sector</h4> </a>
                   </div>
                   
         
@@ -140,7 +158,7 @@
   <div class="container bg-dark">
     <div class="row justify-content-around">
       <div class="col-lg-12 text-center">
-        <h2 class="section-title">Nuestra Red Internacional</h2>
+        <h2 class="section-title" data-lang="international">Our International Network</h2>
  
            
              </p>
@@ -167,31 +185,31 @@
                     <div class="bg-dark card hover-shadow shadow">
                       <div class="text-center px-4 py-5">
                           <img class="img-card img-fluid mb-4 d-inline-block" src="images/wdc.jpg"alt="">
-                          <h4 class="mb-4 text-white">Washington DC</h4>
+                          <h4 class="mb-4 text-white" data-lang="Washington">Washington DC</h4>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6 mb-4 mb-md-0">
                       <div class="bg-dark card hover-shadow shadow">
                         <div class="text-center px-4 py-5">
-                            <img class="img-card img-fluid mb-4 d-inline-block" src="images/mn.jpg"alt="">
-                            <h4 class="mb-4 text-white">Munich</h4>
+                            <img class="img-card img-fluid mb-4 d-inline-block" src="images/bj.jpg"alt="">
+                            <h4 class="mb-4 text-white" data-lang="Beijing">Beijing</h4>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-6 mb-4 mb-md-0">
                         <div class="bg-dark card hover-shadow shadow">
                           <div class="text-center px-4 py-5">
-                              <img class="img-card img-fluid mb-4 d-inline-block" src="images/bj.jpg"alt="">
-                              <h4 class="mb-4 text-white">Beijing</h4>
+                              <img class="img-card img-fluid mb-4 d-inline-block" src="images/msc.jpg"alt="">
+                              <h4 class="mb-4 text-white" data-lang="Moscow">Moscow</h4>
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6 mb-4 mb-md-0">
                           <div class="bg-dark card hover-shadow shadow">
                             <div class="text-center px-4 py-5">
-                                <img class="img-card img-fluid mb-4 d-inline-block" src="images/tk.jpg"alt="">
-                                <h4 class="mb-4 text-white">Tokio</h4>
+                                <img class="img-card img-fluid mb-4 d-inline-block" src="images/mn.jpg"alt="">
+                                <h4 class="mb-4 text-white" data-lang="Munich">Munich</h4>
                             </div>
                           </div>
                         </div>
@@ -204,16 +222,16 @@
                     <div class="col-md-6 mb-4 mb-md-0">
                       <div class="bg-dark card hover-shadow shadow">
                         <div class="text-center px-4 py-5">
-                            <img class="img-card img-fluid mb-4 d-inline-block" src="images/ln.jpg"alt="">
-                            <h4 class="mb-4 text-white">Londres</h4>
+                            <img class="img-card img-fluid mb-4 d-inline-block" src="images/tk.jpg"alt="">
+                            <h4 class="mb-4 text-white" data-lang="Tokio">Tokio</h4>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-6 mb-4 mb-md-0">
                         <div class="bg-dark card hover-shadow shadow">
                           <div class="text-center px-4 py-5">
-                              <img class="img-card img-fluid mb-4 d-inline-block" src="images/ma.jpg"alt="">
-                              <h4 class="mb-4 text-white">Madrid</h4>
+                              <img class="img-card img-fluid mb-4 d-inline-block" src="images/ln.jpg"alt="">
+                              <h4 class="mb-4 text-white" data-lang="London">London</h4>
                           </div>
                         </div>
                       </div>
@@ -221,7 +239,7 @@
                           <div class="bg-dark card hover-shadow shadow">
                             <div class="text-center px-4 py-5">
                                 <img class="img-card img-fluid mb-4 d-inline-block" src="images/cdmx.jpg"alt="">
-                                <h4 class="mb-4 text-white">Ciudad de México</h4>
+                                <h4 class="mb-4 text-white" data-lang="Mexicoc">Ciudad de México</h4>
                             </div>
                           </div>
                         </div>
@@ -229,51 +247,14 @@
                             <div class="bg-dark card hover-shadow shadow">
                               <div class="text-center px-4 py-5">
                                   <img class="img-card img-fluid mb-4 d-inline-block" src="images/ba.jpg"alt="">
-                                  <h4 class="mb-4 text-white">Buenos Aires</h4>
+                                  <h4 class="mb-4 text-white" data-lang="BuenosA">Buenos Aires</h4>
                               </div>
                             </div>
                           </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item mx-lg-6">
-                  <div class="container mx-lg-6">
-                    <div class="row mx-lg-6">
-                      <div class="col-md-6 mb-4 mb-md-0">
-                        <div class="bg-dark card hover-shadow shadow">
-                          <div class="text-center px-4 py-5">
-                              <img class="img-card img-fluid mb-4 d-inline-block" src="images/pr.jpg"alt="">
-                              <h4 class="mb-4 text-white">Praga</h4>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 mb-4 mb-md-0">
-                          <div class="bg-dark card hover-shadow shadow">
-                            <div class="text-center px-4 py-5">
-                                <img class="img-card img-fluid mb-4 d-inline-block" src="images/wdc.jpg"alt="">
-                                <h4 class="mb-4 text-white">Washington DC</h4>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6 mb-4 mb-md-0">
-                            <div class="bg-dark card hover-shadow shadow">
-                              <div class="text-center px-4 py-5">
-                                  <img class="img-card img-fluid mb-4 d-inline-block" src="images/sn.jpg"alt="">
-                                  <h4 class="mb-4 text-white">Santiago</h4>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-6 mb-4 mb-md-0">
-                              <div class="bg-dark card hover-shadow shadow">
-                                <div class="text-center px-4 py-5">
-                                    <img class="img-card img-fluid mb-4 d-inline-block" src="images/bj.jpg"alt="">
-                                    <h4 class="mb-4 text-white">Beijing</h4>
-                                </div>
-                              </div>
-                            </div>
-                    </div>
-                  </div>
-                </div>
+             
                 
           <a class="carousel-control-prev text-primary" href="#slide-sede" role="button" data-slide="prev">
           <img class="arrow img-fluid w-10" src="images/back.png">
@@ -303,7 +284,7 @@
                 <div class="bg-dark bg-dark card hover-shadow shadow">
                   <div class="text-center px-4 py-5">
                     <img class="img-card img-fluid mb-4 d-inline-block" src="images/wdc.jpg"alt="">
-                      <h4 class="mb-4 text-white">Washington DC</h4>
+                      <h4 class="mb-4 text-white" data-lang="Washington">Washington DC</h4>
                     </div>
                   </div>
                 </div>          
@@ -313,7 +294,17 @@
                 <div class="bg-dark bg-dark card hover-shadow shadow">
                   <div class="text-center px-4 py-5">
                     <img class="img-card img-fluid mb-4 d-inline-block" src="images/bj.jpg"alt="">
-                      <h4 class="mb-4 text-white">Beijing</h4>
+                      <h4 class="mb-4 text-white" data-lang="Beijing">Beijing</h4>
+                    </div>
+                  </div>
+                </div>          
+            </div>
+            <div class="text-center sede-content2">
+              <div class="col-md-12 mb-4 mb-md-0">
+                <div class="bg-dark bg-dark card hover-shadow shadow">
+                  <div class="text-center px-4 py-5">
+                    <img class="img-card img-fluid mb-4 d-inline-block" src="images/msc.jpg"alt="">
+                      <h4 class="mb-4 text-white" data-lang="Moscow">Moscow</h4>
                     </div>
                   </div>
                 </div>          
@@ -323,7 +314,7 @@
                 <div class="bg-dark bg-dark card hover-shadow shadow">
                   <div class="text-center px-4 py-5">
                     <img class="img-card img-fluid mb-4 d-inline-block" src="images/mn.jpg"alt="">
-                      <h4 class="mb-4 text-white">Munich</h4>
+                      <h4 class="mb-4 text-white" data-lang="Munich">Munich</h4>
                     </div>
                   </div>
                 </div>          
@@ -333,7 +324,7 @@
                 <div class="bg-dark bg-dark card hover-shadow shadow">
                   <div class="text-center px-4 py-5">
                     <img class="img-card img-fluid mb-4 d-inline-block" src="images/tk.jpg"alt="">
-                      <h4 class="mb-4 text-white">Tokio</h4>
+                      <h4 class="mb-4 text-white" data-lang="Tokyo">Tokio</h4>
                     </div>
                   </div>
                 </div>          
@@ -343,7 +334,7 @@
                 <div class="bg-dark bg-dark card hover-shadow shadow">
                   <div class="text-center px-4 py-5">
                     <img class="img-card img-fluid mb-4 d-inline-block" src="images/ln.jpg"alt="">
-                      <h4 class="mb-4 text-white">Londres</h4>
+                      <h4 class="mb-4 text-white" data-lang="London">London</h4>
                     </div>
                   </div>
                 </div>          
@@ -353,17 +344,7 @@
                 <div class="bg-dark bg-dark card hover-shadow shadow">
                   <div class="text-center px-4 py-5">
                     <img class="img-card img-fluid mb-4 d-inline-block" src="images/cdmx.jpg"alt="">
-                      <h4 class="mb-4 text-white">Ciudad de México</h4>
-                    </div>
-                  </div>
-                </div>          
-            </div>
-            <div class="text-center sede-content2">
-              <div class="col-md-12 mb-4 mb-md-0">
-                <div class="bg-dark bg-dark card hover-shadow shadow">
-                  <div class="text-center px-4 py-5">
-                    <img class="img-card img-fluid mb-4 d-inline-block" src="images/ma.jpg"alt="">
-                      <h4 class="mb-4 text-white">Madrid</h4>
+                      <h4 class="mb-4 text-white" data-lang="Mexicoc">Ciudad de México</h4>
                     </div>
                   </div>
                 </div>          
@@ -373,31 +354,12 @@
                 <div class="bg-dark bg-dark card hover-shadow shadow">
                   <div class="text-center px-4 py-5">
                     <img class="img-card img-fluid mb-4 d-inline-block" src="images/ba.jpg"alt="">
-                      <h4 class="mb-4 text-white">Buenos Aires</h4>
+                      <h4 class="mb-4 text-white" data-lang="BuenosA">Buenos Aires</h4>
                     </div>
                   </div>
                 </div>          
             </div>
-            <div class="text-center sede-content2">
-              <div class="col-md-12 mb-4 mb-md-0">
-                <div class="bg-dark bg-dark card hover-shadow shadow">
-                  <div class="text-center px-4 py-5">
-                    <img class="img-card img-fluid mb-4 d-inline-block" src="images/pr.jpg"alt="">
-                      <h4 class="mb-4 text-white">Praga</h4>
-                    </div>
-                  </div>
-                </div>          
-            </div>
-            <div class="text-center sede-content2">
-              <div class="col-md-12 mb-4 mb-md-0">
-                <div class="bg-dark bg-dark card hover-shadow shadow">
-                  <div class="text-center px-4 py-5">
-                    <img class="img-card img-fluid mb-4 d-inline-block" src="images/sn.jpg"alt="">
-                      <h4 class="mb-4 text-white">Santiago</h4>
-                    </div>
-                  </div>
-                </div>          
-            </div>
+            
            </div>
         </div>
       </div>
@@ -416,27 +378,26 @@
         <div class="section bg-dark">          
         <div class="container">  
                     
-          <p class="text-light text-center paragraph-lg">Consulte su oficina local de <img class="imtxt img-fluid" src="images/logotx.png"> <br> para conocer a fondo los detalles 
-            de cada una de nuestras divisiones y cómo le serán de utilidad. </p>
+          <p class="text-light text-center paragraph-lg" data-lang="footer1">Consult your local <img class="imtxt img-fluid" src="images/logotxi.png"> <br>  office for details of each of our divisions and how they will be useful. </p>
           <div class="row">
             <div class="col-md-3">
               <h5 class="text-light text-center">
-                <a class="text-light" href="received-dist.html">Nuestras distinciones</a>
+                <a class="text-light" href="received-dist.html" data-lang="footer2">Distinctions received</a>
               </h5>
             </div><div class="col-md-3">
                 <h5 class="text-light text-center">
-                  <a class="text-light" href="internship-program.html">Pasantías</a>
+                  <a class="text-light" href="internship-program.html" data-lang="footer3">Internship program</a>
                 </h5>
               </div>
               <div class="col-md-3">
                   <h5 class="text-light text-center">
-                    <a class="text-light" href="terms-agreement.html">Términos y condiciones</a>
+                    <a class="text-light" href="terms-agreement.html" data-lang="footer4">Terms and conditions</a>
                   </h5>
                 </div>
                 <div class="col-md-3">
                     <h5 class="text-light text-center">
                       <i class="x-icon contact"></i>
-                      <a class="text-light" href="contact.html">Contacto</a>
+                      <a class="text-light" href="contact.html" data-lang="footer5">Contact</a>
                     </h5>
                   </div>
               </div>
@@ -473,6 +434,9 @@
 <!-- Main Script -->
 <script src="js/script.js"></script>
 <script src="js/loading.js"></script>
+<script nomodule src="https://unpkg.com/browser-es-module-loader/dist/babel-browser-build.js"></script>
+<script nomodule src="https://unpkg.com/browser-es-module-loader"></script>
+<script id="translate" src="js/translate/translate.js"></script>
 
 </body>
 </html>
