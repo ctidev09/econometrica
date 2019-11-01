@@ -39,26 +39,26 @@
                   <a class="nav-link" href="contact.html" data-lang="menu4">Contact</a>
                 </li>
                 
-                  
                 <li class="nav text-primary" style="border: transparent; background-color: #161616;">
-                   <div class="nav-item"data-lang="menu5" style=" border: transparent; background-color: #161616;">
-                  <img class=flaglang src=images/en.png >
-                  </div> 
-                  <select name="lang" id="lang_select" class="text-white" style="border-color: transparent; background-color: #161616;">
-                    <option value="en" class=flaglang>en </option>
-                    <option value="zh" class=flaglang>中文</option> 
-                    <option value="ru" class=flaglang>ru</option>
-                    <option value="es" class=flaglang>es</option>
-                    <option value="de" class=flaglang>de</option>
-                    <option value="ja" class=flaglang>日本</option>
-                  </select>
-                  </div>
-                </li></div>
-                
-              </ul>
-            </div>
-          </nav>
-        </header>
+                  <div class="nav-item"data-lang="menu5" style=" border: transparent; background-color: #161616;">
+                 <img class=flaglang src=images/en.png >
+                 </div> 
+                 
+                 <select name="lang" id="lang_select" class="text-white" style="border-color: transparent; background-color: #161616;">
+                   <option value="en" class="flaglang">en </option>
+                   <option value="zh" class=flaglang>中文</option> 
+                   <option value="ru" class=flaglang>ru</option>
+                   <option value="es" class=flaglang>es</option>
+                   <option value="de" class=flaglang>de</option>
+                   <option value="ja" class=flaglang>日本</option>  
+                 </select>
+                 </div>
+               </li>
+             </div>
+             </ul>
+           </div>
+         </nav>
+       </header>
   
 <!-- page title -->
 <section class="page-title bg-white position-relative">
@@ -89,41 +89,35 @@
                       <form action="#" class="row">
                         <div class="col-md-12">
                             <h5 class="mb-4 text-primary" data-lang="contact3">Name</h5>
-                          <input type="text" data-lang="contact4" id="name" name="name" placeholder="Write your name" class="form-control px-0 mb-4" >
-                        </div>
+                          <input name="name" data-lang="contact4" placeholder="Enter name"  class="form-control px-0 mb-4"  required data-error="" >
+                        </div></input>
                         <div class="col-md-12">
                             <h5 class="mb-4 text-primary" data-lang="contact5">Title</h5>
-                          <input type="email" data-lang="contact6" id="title" name="title" placeholder="Enter the reason for your message" class="form-control px-0 mb-4">
+                          <input type="text" id="title" name="title" placeholder="Enter the reason for your message"
+                           class="form-control px-0 mb-4" required data-error="Ingrese su correo">
                         </div>
                         <div class="col-md-12">
                             <h5 class="mb-4 text-primary" data-lang="contact7">Email</h5>
-                          <input type="email" data-lang="contact8" id="email" name="email" placeholder="Enter your email" class="form-control px-0 mb-4">
+                            <input type="email" name="email" placeholder="Correo electrónico" data-lang="contact8" 
+                             id="email" class="form-control px-0 mb-4" required data-error="Ingrese su correo">
                         </div>
                         <div class="col-md-12">
                             <h5 class="mb-4 text-primary" data-lang="contact9">Company</h5>
-                          <input type="text"  id="company" name="company" data-lang="contact10" placeholder="Enter the name of your Company" class="form-control px-0 mb-4">
+                          <input name="company" type="name"  id="company" name="company" data-lang="contact10" 
+                           class="form-control px-0 mb-4" placeholder="Enter the name of your Company"
+                            required data-error="Ingrese su correo">
                         </div>
                         <div class="col-md-12">
                             <h5 class="mb-4 text-primary" data-lang="contact11">Country</h5>
-                        </div>
-                            <div class="dropdown">
-                            <div class="btn-group">
-                                  <button type="button" class="btn btn-transparent dropdown-toggle btn-justify" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
-                                    País
-                                  </button>
-                                  <div class="dropdown-menu dropdown-menu-lg-right">
-                                    <button class="dropdown-item" type="button">País 1</button>
-                                    <button class="dropdown-item" type="button">País 2</button>
-                                    <button class="dropdown-item" type="button">País 3</button>
-                                    <button class="dropdown-item" type="button">País 1</button>
-                                  </nav>
-                                  </div>
-                                </div>
-                              </div>
+                       
+                        <input name="company" type="name"  id="company" name="company" data-lang="contact11b" 
+                           class="form-control px-0 mb-4" placeholder="Enter your Country" required data-error="Ingrese su correo">
+                         </div>
+                            
                         <div class="col-12">
                             <h5 class="mb-4 text-primary" data-lang="contact12">Mensaje</h5>
                           <textarea name="message" data-lang="contact13" id="message" class="form-control px-0 mb-4"
-                            placeholder="Escriba su mensaje aquí"></textarea>
+                            placeholder="Write your message here" required data-error="Ingrese su correo"></textarea>
                         </div>
                         <div class="col-lg-6 col-10 mx-auto">
                           <button class="btn btn-sm btn-primary w-100" data-lang="contact14">Enviar</button>
