@@ -42,17 +42,17 @@
            <div class="nav-item"data-lang="menu5" style=" border: transparent; background-color: #161616;">
           <img class=flaglang src=images/en.png >
           </div> 
-          
-          <select name="lang" id="lang_select" class="text-white" style="border-color: transparent; background-color: #161616;">
-            <option value="en" class="flaglang">en </option>
-            <option value="zh" class=flaglang>中文</option> 
-            <option value="ru" class=flaglang>ru</option>
-            <option value="es" class=flaglang>es</option>
-            <option value="de" class=flaglang>de</option>
-            <option value="ja" class=flaglang>日本</option>  
+          <select name="lang" id="lang_select" data-style="btn-info" class="text-white" style="border-color: transparent; background-color: #161616;">
+            <option value="en" class="selectflag1">en </option>
+            <option value="zh" class=selectflag2>中文</option> 
+            <option value="ru" class=selectflag3>ru</option>
+            <option value="es" class=selectflag4>es</option>
+            <option value="de" class=selectflag5>de</option>
+            <option value="ja" class=selectflag6>日本</option>  
           </select>
           </div>
         </li>
+        
       </div>
       </ul>
     </div>
@@ -419,8 +419,10 @@
 <!-- Main Script -->
 <script src="js/script.js"></script>
 <script src="js/loading.js"></script>
+<script src="js/ImageSelect.jquery.js"></script>
 <script nomodule src="https://unpkg.com/browser-es-module-loader/dist/babel-browser-build.js"></script>
 <script nomodule src="https://unpkg.com/browser-es-module-loader"></script>
+<script id="languajes" src="js/translate/languajes.js"></script>
 <script id="translate" src="js/translate/translate.js"></script>
 
 </body>

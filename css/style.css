@@ -13,7 +13,13 @@ body {
   font-size: 15px;
   color: rgba(0,0,0,0) !important;
 }
-.sectionflag{
+
+.selectflag1{
+  color: #fff;
+  background-image: url('../images/de.png');
+  padding: 1em;
+}
+#sectionflag{
  
     background: url('../images/band.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;

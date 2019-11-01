@@ -51,10 +51,7 @@
         arrows: false,
         adaptiveHeight: true,
     });
-
-
-  
-      
-
+   
+    
 
 })(jQuery);
